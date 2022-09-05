@@ -1,0 +1,67 @@
+/* NAVBAR */
+
+nav{
+    background-color: black;
+    
+}
+nav div ul li a:hover{
+    color: coral !important;
+}
+.logo{
+    font-size: xx-large;
+}
+
+/* LETRAS */
+
+@font-face {
+    font-family: "Alice in Wonderland";
+    src: url("../fonts/Alice\ in\ Wonderland.ttf") format('truetype');
+}
+
+.letrasgoticas{
+    font-family: "Alice in Wonderland" !important;
+    font-size: x-large;
+}
+
+.letrasseparador{
+    font-family: "Alice in Wonderland" !important;
+    color: aliceblue;
+}
+
+.letrascard{
+    font-family: "Alice in Wonderland" !important;
+    color: aliceblue;
+    font-size: x-large;
+}
+
+
+/* BODY */
+
+.fondo {
+    background-color: black;
+}
+
+video{
+    width: 50%;
+    margin-top: 5px;
+}
+ .close{
+    color: aliceblue;
+    
+ }
+
+ .clip.activo{
+    transition-delay: 0.5s;
+    transform: translate(-50%,-50%) scale(1);
+ }
+
+/* FOOTER */
+
+.iconosf{
+    color: aliceblue;
+}
+ .iconosf:hover{
+    color: coral;
+    animation: shakeY;
+    animation-duration: 2s;
+ }
