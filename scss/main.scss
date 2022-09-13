@@ -1,0 +1,64 @@
+@import "variables/extend";
+@import "variables/mixin";
+@import "variables/variables";
+
+@font-face {
+    font-family: "Alice in Wonderland";
+    src: url("../fonts/Alice\ in\ Wonderland.ttf") format('truetype');
+}
+
+//navbar//
+
+nav {
+    background-color: $f-nav;
+    font-family: $l-family-nav !important;
+    font-size: $l-nav;
+    .container-fluid{
+        .logo{
+            
+            font-size: $l-logo !important;
+        }
+    }
+
+    .collapse{
+        .navbar-nav{
+            .nav-item{
+                .nav-link{
+                    color:aliceblue;
+                        &:hover{
+                        color: coral;
+                }
+                }
+            }
+        }
+    }
+}
+
+//body//
+
+.fondo{
+    @include estiloBody;
+}
+
+.letrasseparador{
+    font-family: $l-family-body;
+    color: $l-color-body;
+}
+
+.letrascard{
+    @extend %estiloCard;
+}
+
+.imgContacto{
+    width: 50%;
+}
+
+.tribal{
+    width: 100%;
+    padding-top: 10px;
+}
+//footer//
+
+.iconosf{
+    @include iconos;
+}

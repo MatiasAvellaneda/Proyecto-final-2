@@ -1,0 +1,33 @@
+@import "./variables";
+%estiloNav{
+    nav {
+        background-color: $f-nav;
+        font-family: $l-family-nav !important;
+        font-size: $l-nav;
+        .container-fluid{
+            .logo{
+                
+                font-size: $l-logo !important;
+            }
+        }
+    
+        .collapse{
+            .navbar-nav{
+                .nav-item{
+                    .nav-link{
+                        color:aliceblue;
+                            &:hover{
+                            color: coral;
+                    }
+                    }
+                }
+            }
+        }
+    }
+}
+
+%estiloCard{
+    font-family: $l-card;
+    font-size: x-large;
+    color: aliceblue;
+}

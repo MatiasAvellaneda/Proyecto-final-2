@@ -1,0 +1,13 @@
+@mixin estiloBody{
+    background-color: black;
+
+}
+
+@mixin iconos {
+    color: aliceblue;
+        &:hover{
+            color: coral;
+            animation: shakeY;
+            animation-duration: 2s;
+        }
+}

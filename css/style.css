@@ -1,67 +1,40 @@
-/* NAVBAR */
-
-nav{
-    background-color: black;
-    
-}
-nav div ul li a:hover{
-    color: coral !important;
-}
-.logo{
-    font-size: xx-large;
-}
-
-/* LETRAS */
+.letrascard {
+  font-family: "Alice in Wonderland";
+  font-size: x-large;
+  color: aliceblue; }
 
 @font-face {
-    font-family: "Alice in Wonderland";
-    src: url("../fonts/Alice\ in\ Wonderland.ttf") format('truetype');
-}
+  font-family: "Alice in Wonderland";
+  src: url("../fonts/Alice in Wonderland.ttf") format("truetype"); }
 
-.letrasgoticas{
-    font-family: "Alice in Wonderland" !important;
-    font-size: x-large;
-}
-
-.letrasseparador{
-    font-family: "Alice in Wonderland" !important;
-    color: aliceblue;
-}
-
-.letrascard{
-    font-family: "Alice in Wonderland" !important;
-    color: aliceblue;
-    font-size: x-large;
-}
-
-
-/* BODY */
+nav {
+  background-color: black;
+  font-family: "Alice in Wonderland" !important;
+  font-size: x-large; }
+  nav .container-fluid .logo {
+    font-size: xx-large !important; }
+  nav .collapse .navbar-nav .nav-item .nav-link {
+    color: aliceblue; }
+    nav .collapse .navbar-nav .nav-item .nav-link:hover {
+      color: coral; }
 
 .fondo {
-    background-color: black;
-}
+  background-color: black; }
 
-video{
-    width: 50%;
-    margin-top: 5px;
-}
- .close{
-    color: aliceblue;
-    
- }
+.letrasseparador {
+  font-family: "Alice in Wonderland";
+  color: aliceblue; }
 
- .clip.activo{
-    transition-delay: 0.5s;
-    transform: translate(-50%,-50%) scale(1);
- }
+.imgContacto {
+  width: 50%; }
 
-/* FOOTER */
+.tribal {
+  width: 100%;
+  padding-top: 10px; }
 
-.iconosf{
-    color: aliceblue;
-}
- .iconosf:hover{
+.iconosf {
+  color: aliceblue; }
+  .iconosf:hover {
     color: coral;
     animation: shakeY;
-    animation-duration: 2s;
- }
+    animation-duration: 2s; }
